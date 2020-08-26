@@ -2,14 +2,72 @@
     <head>
         <meta charset="UFT-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Mubeen Khalid</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
     </head>
     <body>
-        <header>
-        </header>
         <main>
+            <div id="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="container" id="home">
+                <img src="hero.jpg" style="width: 100%;">
+                <div class="centered"><h1 style="text-align: center;">World's Top Human Resource Consultants</h1>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi interdum sit amet.</p>
+                <button class="btn-first" id="btn">Explore</button><button class="btn-scnd" id="btn">Contact</button>
+                </div>
+            </div>
+            <div class="about" id="about"><h2>About Us</h2></div>
+            <div class="flex-container">
+                <div><h2>The Best HR Consultants in the Town</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum sit amet lectus eu dapibus. 
+                    Sed sagittis lorem commodo, ultrices odio ac, auctor nulla.
+                    <br><br>
+                    Quisque eleifend, felis a tristique gravida, felis justo aliquam sapien, quis faucibus dui erat in dui.
+                    Curabitur quis sodales erat. Vestibulum auctor metus nulla, ac luctus justo pretium sit amet.
+                    <br><br>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras vel accumsan nulla.
+                    Aenean sed eleifend justo. Fusce blandit imperdiet eros quis faucibus. 
+                    <br><br>
+                    Nullam ultricies, sem a sollicitudin convallis, neque ante iaculis arcu, sed aliquet dui ligula at lorem. 
+                    Duis viverra blandit lectus, vitae tempus arcu lobortis non.</p></div>
+                <div><img src="consult.jpeg" width="600px" height="350px"></div>  
+            </div>
+            <div style="background-color: #F0F8FF;"><div class="about" id="service" style="padding-top: 10px;"><h2>Services</h2></div></div>
+            <div class="row">
+                <div class="column"><center><img src="Arts.svg" width="150"></center>
+                    <h2>Service 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.    
+                    Morbi interdum sit amet lectus eu dapibus.Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. Morbi interdum sit amet lectus eu dapibus.</p></div>
+                <div class="column"><center><img src="Astronomy.svg" width="150"></center>
+                    <h2>Service 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi interdum sit amet lectus eu dapibus.Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. Morbi interdum sit amet lectus eu dapibus.</p></div>
+                <div class="column"><center><img src="Atom.svg" width="150"></center>
+                    <h2>Service 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi interdum sit amet lectus eu dapibus.Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. Morbi interdum sit amet lectus eu dapibus.</p></div>
+            </div>
+            <div class="about"><h2>Contact</h2></div>
+            <div>
+                <form action="post" style="padding-left: 20%; padding-top: 30px;"  id="contact">
+                    <label for="name">Name: </label><br>
+                    <input type="text" id="fname" name="name"><br><br>
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="question">Question: </label><br>
+                    <input type="text" id="question" name="question" style="height: 20%;"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="footer"><p style="font-weight: bold; font-size: 14px;">All Rights Reserved | 181380023<p></div>
         </main>
-        <footer>
-        </footer>
     </body>
 </html>
