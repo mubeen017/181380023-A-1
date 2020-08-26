@@ -109,6 +109,11 @@ input[type=submit] {
     background-color: #008000;
     color: white;
     border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color:#004d00;
+    transition-duration: 0.2s;
 }
 label {
     font-size: 13px;
